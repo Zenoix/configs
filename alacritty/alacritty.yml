@@ -8,7 +8,8 @@ window:
 font:
   # Normal font face
   normal:
-    family: SFMono
+    # SFMono Nerd Font can be found here https://github.com/epk/SF-Mono-Nerd-Font
+    family: SFMono Nerd Font
     style: Regular
     
   size: 12
