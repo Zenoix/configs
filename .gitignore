@@ -1,0 +1,16 @@
+# Ignore everything
+/*
+/*/
+
+# Except the gitignore and the readme file 
+!.gitignore
+!README.md
+
+# Track the neovim configs
+!/nvim/
+/nvim/plugin/*
+
+# Track the tmux configs
+!/tmux/
+/tmux/*
+!/tmux/tmux.conf
