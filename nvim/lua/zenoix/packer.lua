@@ -52,14 +52,14 @@ use {
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 }
 
-    use("yuttie/comfortable-motion.vim")
+use("yuttie/comfortable-motion.vim")
 
-    use {"Vigemus/iron.nvim"}
+use {"Vigemus/iron.nvim"}
 
-    use {"jalvesaq/Nvim-R"}
+use {"jalvesaq/Nvim-R"}
 
-    use {'christoomey/vim-tmux-navigator'}
+use {'christoomey/vim-tmux-navigator'}
 
-    use {"hrsh7th/cmp-buffer"}
-    use {"hrsh7th/cmp-cmdline"}
+use {"hrsh7th/cmp-buffer"}
+use {"hrsh7th/cmp-cmdline"}
 end)
