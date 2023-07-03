@@ -50,3 +50,6 @@ vim.o.termguicolors = true
 
 -- Leader key
 vim.g.mapleader = " "
+
+-- Decrease update time to 100ms
+vim.o.updatetime = 100

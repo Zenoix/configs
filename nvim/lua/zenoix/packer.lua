@@ -62,4 +62,7 @@ use {'christoomey/vim-tmux-navigator'}
 
 use {"hrsh7th/cmp-buffer"}
 use {"hrsh7th/cmp-cmdline"}
+
+use {"airblade/vim-gitgutter"}
+
 end)
