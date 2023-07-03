@@ -59,4 +59,7 @@ use {
     use {"jalvesaq/Nvim-R"}
 
     use {'christoomey/vim-tmux-navigator'}
+
+    use {"hrsh7th/cmp-buffer"}
+    use {"hrsh7th/cmp-cmdline"}
 end)
