@@ -18,3 +18,6 @@ vim.keymap.set("x", "<leader>p", "\"_dP")
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
+
+-- Change terminal emulator normal mode key to esc
+vim.keymap.set("t", "<leader><Esc>", "<C-\\><C-n>")
