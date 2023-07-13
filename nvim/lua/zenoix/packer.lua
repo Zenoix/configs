@@ -65,4 +65,9 @@ use {"hrsh7th/cmp-cmdline"}
 
 use {"airblade/vim-gitgutter"}
 
+use {
+	"windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+}
+
 end)
