@@ -47,6 +47,7 @@ return require('packer').startup(function(use)
     }
 }
 
+
 use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
@@ -60,6 +61,7 @@ use {"jalvesaq/Nvim-R"}
 
 use {'christoomey/vim-tmux-navigator'}
 
+use {"hrsh7th/cmp-path"}
 use {"hrsh7th/cmp-buffer"}
 use {"hrsh7th/cmp-cmdline"}
 
